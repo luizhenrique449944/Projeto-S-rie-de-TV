@@ -1,0 +1,28 @@
+body {
+    background: white;
+    z-index: 1;
+    
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    color: green;
+}
+a.espaco {
+    padding: 8px;
+}
+h1 {
+    background-color: white;
+}
+a.palavrae {
+    padding: 12px;
+}
+.gustavo {
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
