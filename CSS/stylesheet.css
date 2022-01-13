@@ -1,28 +1,91 @@
-body {
-    background: white;
-    z-index: 1;
-    
-}
+@charset "UTF-8";
 
-div {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
     text-align: center;
-}
-
-footer {
-    color: green;
-}
-a.espaco {
-    padding: 8px;
+    margin: 40px 0px;
+    background-color: blanchedalmond;
+    height: 200px;
+    margin: 0px;
 }
 h1 {
-    background-color: white;
+    font-size: 40px;
+    height: 70px;
+    margin-top: 0px;
+    padding-top: 30px;
 }
-a.palavrae {
-    padding: 12px;
+h2 {
+    font-size: 30px;
+    font-style: italic;
 }
-.gustavo {
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
+main {
+    text-align: center;
+    margin: auto;
+    background-color: #e2410271;
 }
-
+img {
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover {
+    color: aqua;
+    text-decoration: underline;
+    font-size: 23px;
+}
+nav a:visited {
+    color: #3232c9;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+footer p.footer{
+    margin: 0px;
+    color: #25dee4;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+@media screen and (max-width: 930px) {
+.TeenWolf {
+    margin: auto;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 800px){
+    .TeenWolf {
+        margin: auto;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 625px){
+    .TeenWolf {
+        margin: auto;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .Wolf {
+        width: 100%;
+        margin: auto;
+    }
+}
