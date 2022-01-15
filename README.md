@@ -1,2 +1,2 @@
 # Projeto-Serie-de-TV
-Mini site (Teen Wolf)
+Mini Site (Teen Wolf)
